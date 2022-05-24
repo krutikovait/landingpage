@@ -1,0 +1,282 @@
+*,
+*:before,
+*:after {
+  box-sizing: border-box;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol, ul {
+  list-style: none;
+}
+blockquote, q {
+  quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+  content: '';
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+
+h1 {
+  color: #9db0d1;
+  font-size: 60px;
+  font-family: 'Arapey', serif;
+  line-height: 66px;
+  text-align: center;
+  margin-top: 100px;
+  margin-bottom: 50px;
+}
+.heder-text {
+  margin-top: 50px;
+  font-size: 20px;
+  font-family: 'Verdana';
+  line-height: 24px;
+  text-align: center;
+}
+.btn {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  font-size: 30px;  
+  padding: 24px 50px;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Arapey';  
+}
+.button-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 50px 0;
+}
+.box {
+  font-family: 'Verdana';
+  font-size: 20px;
+  display: flex;
+}
+.bullet {
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #9DB0D1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin:0 15px 0 0
+}
+.circle-menu {
+  display: flex;
+  justify-content: space-between;
+}
+.circle-menu .box {
+  margin:50px 0 50px 0;
+}
+.circle-menu .box p {
+  margin: auto;
+}
+.caption {
+  background:url(https://i.ibb.co/FbjZ75n/img/bg-cloud.png) repeat-x top / auto 200px, 
+  linear-gradient(180deg, rgba(135, 198, 235, 0) 8.33%, #87C6EB     93.06%);
+  padding: 250px 120px 100px;
+  font-family: 'Arapey';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  text-align: center;
+}
+.main-section{
+  background: #87C6EB 
+}
+.container{
+  width: 1200px;
+  margin: 0 auto;
+}
+
+.main-background {
+  background: #87C6EB url(https://i.ibb.co/FJ5cNMm/img/photo04.png) no-repeat right bottom / auto 475px;
+}
+
+.cards{
+  display: flex;
+  justify-content: space-between;
+}
+.card{
+  width: 350px;
+  height: 560px;
+  background: #FFFFFF;
+  border-radius: 10px;
+}
+.card-namber{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Verdana';
+  font-size: 30px;
+  color: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(235, 172, 135, 0.4);
+  margin-top: 20px; 
+  margin-left: 20px;
+}
+.image{
+  width: 310px;
+  height: 310px;
+  background: #EBAC87;
+  margin: 10px 20px 20px 20px;
+}
+.image img{
+  width: 100%
+}
+.card-comment{
+  font-family: 'Verdana';
+  font-size: 20px;
+  line-height: 24px;
+  width: 260px;
+  margin: 0 20px 70px 20px
+}
+.card-namber-two{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Verdana';
+  font-size: 30px;
+  color: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: rgba(235, 172, 135, 0.6);
+  margin-top: 20px; 
+  margin-left: 20px;
+}
+.card-namber-three{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: 'Verdana';
+  font-size: 30px;
+  color: #FFFFFF;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  background: #EBAC87;
+  margin-top: 20px; 
+  margin-left: 20px;
+}
+.header{
+  font-family: 'Arapey';
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 44px;
+  color: #FFFFFF;
+  margin: 75px 720px 50px 0px ; 
+}
+.subtitle{
+  font-family: 'Verdana';  
+  font-size: 20px;
+  line-height: 24px;
+  width: 600px;
+  color: #000000;
+  margin-: 0 720px 0 0 ;
+}
+.btn-small{
+  font-family: 'Arapey';
+  font-weight: 400;
+  font-size: 30px;
+  text-align: center;
+  text-transform: uppercase;
+  color: #EBAC87;
+}
+.btn-small{
+  border-radius: 10px;
+  border: 0;  
+  padding: 24px 50px;
+  background: #FFFFFF;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Arapey'; 
+  color: #EBAC87;
+}
+.question{
+  background: #EBAC87;
+  width: 80px;
+  height: 80px;
+  border-radius: 50%;
+  border: 0;   
+  font-family: 'Verdana';
+  font-weight: 400;
+  font-size: 60px; 
+  color: #FFFFFF;
+  text-align: center;
+}
+.button-group{
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+.bottom-menu{
+  display: flex;
+  margin: 50px auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.btn {
+  background: #EBAC87;
+  border-radius: 10px;
+  border: 0;
+  font-size: 30px;  
+  padding: 24px 50px;
+  color: #FFFFFF;
+  font-size: 30px;
+  text-transform: uppercase;
+  text-align: center;
+  font-family: 'Arapey';   
+  }
+.icons{
+  display: flex;
+}
+.icon{
+ margin-left: 36px;
+}
+  
+
